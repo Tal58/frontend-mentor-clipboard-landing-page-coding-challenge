@@ -5,7 +5,7 @@
 <br>
 👨‍💻 The main aim of this project is to improve my <b>HTML/CSS skills and ©️cloning abilities</b>.
 <br><br>
-🎯 Your challenge is to build out this landing page and get it looking as close to the design as possible..
+🎯 This challenge is to build out this landing page and get it looking as close to the design as possible..
 <br><br>
 🔗 To see live version 🎯
 <br>
@@ -16,7 +16,7 @@
 
 ## 🖥️Desktop version
 <br>
-<img src="clipboard_desktop.gif" width="400" height="400" align="left" alt="desktop_version">
+<img src="clipboard_desktop.gif" width="500" height="400" align="left" alt="desktop_version">
 <br>
 <br>
 <br>
