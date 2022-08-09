@@ -1,0 +1,639 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 0.95;
+}
+
+header {
+    background-image: url(images/bg-header-desktop.png);
+    display: flex;
+    background-position-y: top;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+header #logo {
+    margin-top: 70%;
+    margin-bottom: 30%;
+    width: 85%;
+}
+
+.history {
+    margin-bottom: 3%;
+}
+
+.history p {
+    font-size: 1.1vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.history h1 {
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.button nav {
+    display: flex;
+    border-radius: 2.2vw;
+    height: 3vw;
+    width: 13vw;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1vw;
+}
+
+.mac {
+    background-color: rgb(0, 26, 255);
+    opacity: 0.7;
+}
+
+.ios {
+    background-color: rgb(37, 218, 106);
+}
+
+.button nav a {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    cursor: pointer;
+    font-size: 1.vw;
+    font-family: 'Saira', sans-serif;
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+
+.button nav a:hover {
+    color: red;
+
+}
+
+.keep {
+    margin-bottom: 7%;
+}
+
+.keep p {
+    font-size: 1.1vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.keep h1 {
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.tv {
+    margin-left: -7%;
+    margin-right: 15%;
+
+}
+
+.tv img {
+    display: flex;
+    margin: auto;
+    width: 130%;
+    height: auto;
+}
+
+.combo {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.right {
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.right h3 {
+    font-size: 1.6vw;
+    text-align: left;
+    font-family: 'Saira', sans-serif;
+}
+
+.right p {
+    font-size: 1vw;
+    text-align: left;
+    font-family: 'Saira', sans-serif;
+}
+
+.access {
+    margin-bottom: 3%;
+}
+
+.access p {
+    font-size: 1.1vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.access h1 {
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.phonetablet img {
+    display: flex;
+    margin: auto;
+    height: auto;
+    width: 50%;
+}
+
+.supercharge {
+    margin-bottom: 3%;
+}
+
+.supercharge p {
+    font-size: 1.1vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.supercharge h1 {
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.smallcombo {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.smallbox img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    width: auto;
+    height: auto;
+}
+
+.smallbox p {
+    font-size: 1vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+
+}
+
+.smallbox h1 {
+    font-size: 1.6vw;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+
+}
+
+.logos {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logos img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    width: 10%;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #eaecf157;
+
+}
+
+.fa-heart-o {
+    color: red;
+}
+
+footer {
+    display: flex;
+    opacity: 0.7;
+    padding-top: 2%;
+    background-color: #eaecf157;
+}
+
+.logof {
+    width: 15%;
+}
+
+.logof img {
+    width: 20%;
+    float: right;
+}
+
+.table {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.table nav {
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.table nav a {
+    display: flex;
+    font-size: 1vw;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Saira', sans-serif;
+    display: flex;
+    width: 15vw;
+}
+
+.table nav a:hover {
+    color: red;
+
+}
+
+.info1 {
+    display: flex;
+}
+
+.info2 {
+    display: flex;
+    margin-top: 2%;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia img {
+    margin-top: 45%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 1vw;
+    height: 1vw;
+}
+
+.socialmedia:hover {
+    color: red;
+}
+
+
+@media all and (max-width: 700px) {
+    header {
+        background-image: url(images/bg-header-mobile.png);
+       
+    }
+
+    header #logo {
+        width: 85%;
+    }
+
+    body {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoc img {
+        width: 25%;
+    }
+
+    .history {
+        display: inline-block;
+        margin-bottom: 3%;
+        margin-top: 5%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .history p {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .history h1 {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 7%;
+        padding-right: 7%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .button {
+        display: block;
+        margin: 0;
+        margin-bottom: 15%;
+    }
+
+    .button nav {
+        width: 80%;
+        height: 11vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4vw;
+        font-size: 4vw;
+        border-radius: 25px;
+        text-align: center;
+        padding-bottom: 15%;
+    }
+
+    .keep {
+        display: inline-block;
+        margin-bottom: 7%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 10%;
+    }
+
+    .keep p {
+        padding-left: 9%;
+        padding-right: 9%;
+        width: 100%;
+        font-size: 14px;
+
+    }
+
+    .keep h1 {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 30px;
+    }
+
+
+    .combo {
+        margin-bottom: 50%;
+        flex-direction: column;
+        height: 120vw;
+        box-sizing: border-box;
+    }
+
+    .tv {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+
+    .tv img {
+        width: 90%;
+        height: auto;
+    }
+
+
+    .right {
+        margin-top: 15%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5%;
+    }
+
+    #easily {
+        padding-left: 12%;
+        padding-right: 12%;
+
+    }
+
+    #instantly {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #complete {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+
+    .right h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .right p {
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .access {
+        box-sizing: border-box;
+        padding-top: 50%;
+        margin-bottom: 10%;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .access p {
+        font-size: 15px;
+        text-align: center;
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+
+    .access h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .phonetablet {
+        margin-bottom: 5%;
+    }
+
+    .phonetablet img {
+        display: block;
+        width: 90%;
+    }
+
+    .supercharge {
+        margin-bottom: 10%;
+    }
+
+    .supercharge p {
+        font-size: 15px;
+        text-align: center;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .supercharge h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .smallcombo {
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        justify-content: space-around;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .smallbox img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        width: auto;
+        height: auto;
+    }
+
+    .xsmallbox {
+        margin-bottom: 10%;
+    }
+
+    .smallbox p {
+        font-size: 15px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .smallbox h1 {
+        font-size: 30px;
+    }
+
+    .logos {
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .logos img {
+        margin-top: 20%;
+        margin-bottom: 20%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+    }
+
+    #available {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .icon {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1%;
+        z-index: 5;
+    }
+
+    .fa-heart-o {
+        color: red;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+        flex-direction: column;
+        height: 280px;
+    }
+
+    .logof {
+        margin-top: 15px;
+        width: 100%;
+        height: 75px;
+    }
+
+    .logof img {
+        width: 10%;
+        display: block;
+        float: unset;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .table {
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .table nav {
+        text-align: center;
+        display: block;
+        justify-content: center;
+
+    }
+
+    .table nav a {
+        display: block;
+        font-size: 15px;
+        width: auto;
+        cursor: pointer;
+    }
+
+    .table nav a:hover {
+        color: red;
+
+    }
+
+    .info1 {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .info2 {
+        margin-top: 0;
+        display: block;
+    }
+
+    .socialmedia {
+        margin-top: 0;
+        width: 100%;
+        display: inline-block;
+        flex-direction: row;
+    }
+
+    .socialmedia img {
+        margin-top: 30px;
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
