@@ -7,7 +7,7 @@
 <br><br>
 🎯 This challenge is to build out this landing page and get it looking as close to the design as possible..
 <br><br>
-🔗 To see live version 🎯
+🔗 To see live version 🎯https://tal58.github.io/frontend-mentor-clipboard-landing-page-coding-challenge/
 <br>
 <center> ⌛ Happy Coding  ✍ </center>
 <br><br>
